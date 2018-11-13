@@ -33,10 +33,10 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		model.addAttribute("nick", "Àåµ¿°Ç" );
+		model.addAttribute("nick", "ì¥ë™ê±´" );
 		
-		//6~12 : ¾ÆÄ§ , 12~6:¿ÀÈÄ, 6~24: Àú³á, 24~6 : »õº®
-		model.addAttribute("time", "»õº®,¾ÆÄ§,¿ÀÈÄ,Àú³á".split(",")[date.getHours()/6] );
+		
+		model.addAttribute("time", "ì•„ì¹¨,ì˜¤ì „,ì˜¤í›„,ìƒˆë²½".split(",")[date.getHours()/6] );
 		return "home";
 	}
 	
