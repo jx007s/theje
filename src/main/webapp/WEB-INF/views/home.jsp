@@ -12,6 +12,7 @@
 <P>  The time on the server is ${serverTime}. </P>
 별명: ${nick }<br>
 시간: ${time }
+<h1>함이준 바보</h1>
 <h2>request</h2>
 <a href="mvc/first">first</a>
 <a href="mvc/sec">sec</a>
